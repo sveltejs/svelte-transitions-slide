@@ -1,8 +1,8 @@
 # svelte-transitions-slide
 
-Slide transition plugin for [Svelte](https://svelte.technology). [Demo](https://svelte.technology/repl?gist=939fba2cf67f914ee3c87ffb16f5257f)
+Slide transition plugin for [Svelte](https://svelte.technology). [Demo](https://svelte.technology/repl?gist=f75ef5876dbf546731d2cdfb8230bfa1)
 
-![slide-hello](https://cloud.githubusercontent.com/assets/1162160/25782007/fe173098-330f-11e7-9071-68d464ca72f0.gif)
+![slide-hello](https://cloud.githubusercontent.com/assets/1162160/25782611/50b10200-331c-11e7-9cd9-9ce8cbaf3f33.gif)
 
 Note that this transition will behave oddly with `display: inline` elements.
 
