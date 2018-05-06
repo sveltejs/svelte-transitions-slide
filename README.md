@@ -1,6 +1,6 @@
 # svelte-transitions-slide
 
-Slide transition plugin for [Svelte](https://svelte.technology). [Demo](https://svelte.technology/repl?gist=f75ef5876dbf546731d2cdfb8230bfa1)
+Slide transition plugin for [Svelte](https://svelte.technology). [Demo](https://svelte.technology/repl?version=2.5.0&gist=b447904fdd05737538c24268cca144cc)
 
 ![slide-hello](https://cloud.githubusercontent.com/assets/1162160/25782611/50b10200-331c-11e7-9cd9-9ce8cbaf3f33.gif)
 
@@ -23,10 +23,10 @@ Then add the plugin to your Svelte component's exported definition:
   <input type='checkbox' bind:checked='visible'> visible
 </label>
 
-{{#if visible}}
+{#if visible}
   <!-- use `in`, `out`, or `transition` (bidirectional) -->
   <div transition:slide>hello!</div>
-{{/if}}
+{/if}
 
 <script>
   import slide from 'svelte-transitions-slide';
